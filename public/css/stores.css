@@ -1,0 +1,26 @@
+#stores {
+    padding-block: 3rem;
+}
+
+.stores_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.store_card {
+    background: var(--primary-light-clr);
+    height: 8rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    padding: 1.3rem;
+    border-radius: 40px;
+}
+
+.store_icon {
+    width: 100%;
+
+}
